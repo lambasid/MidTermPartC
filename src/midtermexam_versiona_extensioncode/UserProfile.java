@@ -15,16 +15,17 @@ package midtermexam_versiona_extensioncode;
  */
 public class UserProfile 
 {
-    
+   
     private String userID;//the userID
     private String genre;// the user's preferred genre of movie
     private String[] genres = {"Comedy", "Drama", "Action", "Mystery"};//available genres of movies
     
+    public UserProfile(){}
     /**
      * A constructor that takes in the userID and the favourite genre
      * @param givenID the ID to assign to this user
      * @param givenGenre the users favourite genre
-     */
+     */ 
     public UserProfile(String givenID, String givenGenre)
     {
         userID = givenID;
